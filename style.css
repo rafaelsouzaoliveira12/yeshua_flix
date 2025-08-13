@@ -1,8 +1,9 @@
 body {
     color: whitesmoke;
-    background: black;
+    background: rgb(97, 0, 0);
     margin: 0px;
     font-family: "Quicksand", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     color: rgb(138, 2, 2);
 }
 
-section {
+.chamada {
 background: rgb(153, 17, 17);
 padding-bottom: 80px;
 padding-top: 80px;
@@ -33,4 +34,26 @@ p {
 
 img{
 height: 250px
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green
 }
